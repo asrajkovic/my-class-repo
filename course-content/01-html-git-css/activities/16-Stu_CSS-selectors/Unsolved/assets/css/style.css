@@ -2,12 +2,12 @@
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
-
+/* selector type targets everything within page */
 /* TODO: Label selector type */
 body {
   background-color: lemonchiffon;
 }
-
+/* selector type targets everything within all body tags */
 header,
 footer {
   width: 100%;
@@ -16,18 +16,20 @@ footer {
   color: #f0ead6;
   background-color: #191970;
 }
-
+/* selector type targets everything within header and footer */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
+/* selector type targets specifically the image */
 
 /* TODO: Label selector type */
 .highlighted-text {
   font-weight: bolder;
 }
-
+/* selector type makes all text classes as .highlighted-text bolder than the body definition */
 /* TODO: Label selector type */
 #contact-section {
   background-color: #f0ead6;
 }
+/* selector type makes the background of the contact section a specific color, since defined last it overrides the previous body background color definition */
